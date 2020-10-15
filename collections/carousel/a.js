@@ -34,7 +34,6 @@ const riding = 9;
 
 assign_dummy_images(riding);
 
-// const horses = document.querySelectorAll('.slider-content .shadow');
 const carousel = document.querySelector('.slider-content');
 
 const polySideLength = (n, radius) => Math.abs(Math.sin(Math.PI / n) * radius * 2);
